@@ -4,7 +4,7 @@
   ![Github licence](https://img.shields.io/badge/licence-undefined-blue.svg)
 
   ## Description
-  A program to generate a README file from user inputs.
+  a program to automatically generate a README from user input.
   
   ## Table of Contents
   - [Installation](#installation)
@@ -15,19 +15,19 @@
   - [Questions](#questions)
   
   ## Installation
-  Clone from repoor download to local folder.
+  npm i
   
   ## Usage
-  Run index.js from node to begin.
+  Download node to run
   
   ## License
-  BSD 2-Clause 'Simplified License
+  MIT License
   
   ## Contributing
-  Raise a pull request.
+  fork to contribute
   
   ## Tests
   npm test
   
   ## Questions
-  Contact repo owner.
+  queries to repo owner

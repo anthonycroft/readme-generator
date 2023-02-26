@@ -8,44 +8,44 @@ const questions = [
   {
     type: 'input',
     name: 'github',
-    message: 'Enter your Github username 💾:' ,
+    message: '💾 Enter your Github username:' ,
   },
   {
     type: 'input',
     name: 'title',
-    message: 'Enter the title of your project 🏷️:',
+    message: '🏷️ Enter the title of your project:',
   },
   {
     type: 'input',
     name: 'description',
-    message: 'Enter a description of your project 📁:',
+    message: '📁 Enter a description of your project:',
   },
   {
     type: 'input',
     name: 'installation',
-    message: 'Enter installation instructions including dependencies 📋:',
+    message: '📋 Enter installation instructions including dependencies:',
     default: 'npm i'
   },
   {
     type: 'input',
     name: 'usage',
-    message: 'What does the user need to know about using the repo ✅?',
+    message: '✅ What does the user need to know about using the repo?',
   },
   {
     type: 'list',
     name: 'license',
-    message: 'Enter your project license from the following 🚧:',
-    choices: ["None","Appache License 2.0","GNU General Public License v3.0","MIT License", "BSD 2-Clause 'Simplified License","BSD 3-Clause 'New' or 'Revised' License ", "Boost Software License 1.0", "Creative Commons License Zero v1.0 Universal", "Eclipse Public License 2.0", "GNU Affero General Public License v3.0","GNU General Public License v2.0","GNU Lesser General Public License v2.1", "Mozilla Public License 2.0","The Unlicense"]
+    message: '🚧 Enter your project license from the following:',
+    choices: ["None","Appache License 2.0","GNU General Public License v3.0","MIT License", "BSD 2-Clause 'Simplified License","BSD 3-Clause 'New' or 'Revised' License", "Boost Software License 1.0", "Creative Commons License Zero v1.0 Universal", "Eclipse Public License 2.0", "GNU Affero General Public License v3.0","GNU General Public License v2.0","GNU Lesser General Public License v2.1", "Mozilla Public License 2.0","The Unlicense"]
   },
   {
     type: 'input',
     name: 'contributing',
-    message: 'How do users contribute to the repo? 💡:',
+    message: '💡 How do users contribute to the repo?',
   },
   {
     type: 'input',
     name: 'tests',
-    message: 'Enter instructions for running tests 🧪:',
+    message: '🧪 Enter instructions for running tests:',
     default: 'npm test'
   },
   {
@@ -67,6 +67,8 @@ function init() {
   inquirer
     .prompt(questions)
     .then((answers) => {
+      console.log(`Generating README...`)
+      console.log(answers)
       return writeToFile('README.md', answers);
     })
     .then(() => console.log('README file created successfully.'))
