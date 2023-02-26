@@ -12,6 +12,11 @@ const questions = [
   },
   {
     type: 'input',
+    name: 'email',
+    message: '🖋️ Enter contact email address:',
+  },
+  {
+    type: 'input',
     name: 'title',
     message: '🏷️ Enter the title of your project:',
   },
@@ -47,12 +52,7 @@ const questions = [
     name: 'tests',
     message: '🧪 Enter instructions for running tests:',
     default: 'npm test'
-  },
-  {
-    type: 'input',
-    name: 'questions',
-    message: '🖋️ Enter FAQs and contact information:',
-  },
+  }
 ];
 
 // function to write README file

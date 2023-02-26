@@ -1,10 +1,10 @@
 
-  # dfgfdg
+  # readme generator
 
   ![Github license](https://img.shields.io/badge/license-Creative%20Commons%20License%20Zero%20v1.0%20Universal-blue.svg)
 
   ## Description
-  fdgd
+  a program to generate a README file from user inputs.
   
   ## Table of Contents
   - [Installation](#installation)
@@ -15,19 +15,33 @@
   - [Questions](#questions)
   
   ## Installation
+
+  To install necessary dependencies, run the following command:
+
+  ```
   npm i
+  ```
   
   ## Usage
-  dgd
+  node version 16 and above
   
   ## License
-  Creative Commons License Zero v1.0 Universal
+
+  This project is licensed under the Creative Commons License Zero v1.0 Universal license.
   
   ## Contributing
-  fgdf
+  make a pull request on the repo
   
   ## Tests
+
+  To run tests run the following command:
+
+  ```
   npm test
-  
+  ```
+
   ## Questions
-  dfgd
+
+  If you have any questions about the repo open an issue or contact me directly at tony@vbasolutions.co.uk.
+
+  You can find more of my work at [anthonycroft](https://github.com/anthonycroft).
