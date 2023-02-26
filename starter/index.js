@@ -23,27 +23,30 @@ const questions = [
   {
     type: 'input',
     name: 'installation',
-    message: 'Enter installation instructions 📋:',
+    message: 'Enter installation instructions including dependencies 📋:',
+    default: 'npm i'
   },
   {
     type: 'input',
     name: 'usage',
-    message: 'Enter usage instructions 🗒️:',
+    message: 'What does the user need to know about using the repo ✅?',
   },
   {
-    type: 'input',
+    type: 'list',
     name: 'license',
-    message: 'Enter your project license 🔑:',
+    message: 'Enter your project license from the following 🚧:',
+    choices: ["None","Appache License 2.0","GNU General Public License v3.0","MIT License", "BSD 2-Clause 'Simplified License","BSD 3-Clause 'New' or 'Revised' License ", "Boost Software License 1.0", "Creative Commons License Zero v1.0 Universal", "Eclipse Public License 2.0", "GNU Affero General Public License v3.0","GNU General Public License v2.0","GNU Lesser General Public License v2.1", "Mozilla Public License 2.0","The Unlicense"]
   },
   {
     type: 'input',
     name: 'contributing',
-    message: 'Enter contribution guidelines ⚙️:',
+    message: 'How do users contribute to the repo? 💡:',
   },
   {
     type: 'input',
     name: 'tests',
-    message: 'Enter test instructions 🧪:',
+    message: 'Enter instructions for running tests 🧪:',
+    default: 'npm test'
   },
   {
     type: 'input',
