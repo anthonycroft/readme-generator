@@ -2,7 +2,8 @@
 function getBadge (license){
 
   if (license != "None") {
-    license.replace(/" "/g, "%20")
+    license = license.replace(/ /g, "%20");;
+    console.log(license);
     return `![Github license](https://img.shields.io/badge/license-${license}-blue.svg)`
   }
   return '';

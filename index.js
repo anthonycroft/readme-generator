@@ -51,7 +51,7 @@ const questions = [
   {
     type: 'input',
     name: 'questions',
-    message: 'Enter FAQs and contact information 🖋️:',
+    message: '🖋️ Enter FAQs and contact information:',
   },
 ];
 
