@@ -1,10 +1,10 @@
 
-  # readme-generator
+  # 
 
-  ![Github licence](https://img.shields.io/badge/licence-undefined-blue.svg)
+  ![Github licence](https://img.shields.io/badge/licence-Creative Commons License Zero v1.0 Universal-blue.svg)
 
   ## Description
-  a program to automatically generate a README from user input.
+  
   
   ## Table of Contents
   - [Installation](#installation)
@@ -18,16 +18,16 @@
   npm i
   
   ## Usage
-  Download node to run
+  cvx
   
   ## License
-  MIT License
+  Creative Commons License Zero v1.0 Universal
   
   ## Contributing
-  fork to contribute
+  vxcvx
   
   ## Tests
   npm test
   
   ## Questions
-  queries to repo owner
+  vxv
