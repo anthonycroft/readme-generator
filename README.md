@@ -1,10 +1,10 @@
 
   # readme generator
 
-  ![Github license](https://img.shields.io/badge/license-Creative%20Commons%20License%20Zero%20v1.0%20Universal-blue.svg)
+  ![Github license](https://img.shields.io/badge/license-Eclipse%20Public%20License%202.0-blue.svg)
 
   ## Description
-  a program to generate a README file from user inputs.
+  A program to generated a README file from user inputs.
   
   ## Table of Contents
   - [Installation](#installation)
@@ -21,16 +21,15 @@
   ```
   npm i
   ```
-  
   ## Usage
-  node version 16 and above
+  Node version 16 and above
   
   ## License
 
-  This project is licensed under the Creative Commons License Zero v1.0 Universal license.
+  This project is licensed under the Eclipse Public License 2.0 license.
   
   ## Contributing
-  make a pull request on the repo
+  Make a pull request on the repo.
   
   ## Tests
 
@@ -39,7 +38,6 @@
   ```
   npm test
   ```
-
   ## Questions
 
   If you have any questions about the repo open an issue or contact me directly at tony@vbasolutions.co.uk.
