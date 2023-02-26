@@ -1,7 +1,17 @@
 // function to generate markdown for README
+function getBadge (licence){
+
+  if (licence != "None") {
+    return `![Github licence](https://img.shields.io/badge/licence-${licence}-blue.svg)`
+  }
+  return '';
+}
+
 function generateMarkdown(data) {
   return `
   # ${data.title}
+
+  ${getBadge(data.licence)}
 
   ## Description
   ${data.description}
