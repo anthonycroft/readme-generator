@@ -2,7 +2,7 @@
 function getBadge (license){
 
   if (license != "None") {
-    return `![Github licence](https://img.shields.io/badge/licence-${license}-blue.svg)`
+    return `![Github license](https://img.shields.io/badge/license-${license}-blue.svg)`
   }
   return '';
 }
