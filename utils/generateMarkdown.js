@@ -33,7 +33,6 @@ function generateMarkdown(data) {
   \`\`\`
   ${data.installation}
   \`\`\`
-  
   ## Usage
   ${data.usage}
   
@@ -51,7 +50,6 @@ function generateMarkdown(data) {
   \`\`\`
   ${data.tests}
   \`\`\`
-
   ## Questions
 
   If you have any questions about the repo open an issue or contact me directly at ${data.email}.
