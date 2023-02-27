@@ -9,6 +9,7 @@ function getBadge (license){
   return '';
 }
 
+// function that generates the markdown template
 function generateMarkdown(data) {
   return `
   # ${data.title}
