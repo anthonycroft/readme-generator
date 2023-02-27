@@ -33,7 +33,7 @@ NB use npm install --save inquirer@<version>
 
 [Repository](https://github.com/anthonycroft/readme-generator)
 
-## Screenshots:
+## Screenshot:
 
 ![README Generator Console Application](https://github.com/anthonycroft/readme-generator/blob/main/assets/images/readme-generator.png)
 
