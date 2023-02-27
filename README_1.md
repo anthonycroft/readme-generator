@@ -35,5 +35,5 @@ NB use npm install --save inquirer@<version>
 
 ## Screenshots:
 
-![README Generator Console Application](https://github.com/anthonycroft/weather-dashboard/blob/main/assets/images/readme-generator.png))
+![README Generator Console Application](https://github.com/anthonycroft/readme-generator/blob/main/assets/images/readme-generator.png)
 
