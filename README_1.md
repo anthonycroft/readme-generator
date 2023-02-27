@@ -25,9 +25,9 @@ The app uses the following external Javascript libraries:
 
 NB use npm install --save inquirer@<version>
 
-## Deployed Link:
+## Walkthrough Video:
 
-[README Generator](https://anthonycroft.github.io/readme-generator/)
+[README Generator Walkthrough](https://drive.google.com/file/d/1gzTPfgU6M9ExcBebZjQAZjvvX-CL1xXe/view)
 
 ## Repo Link:
 
