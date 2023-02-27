@@ -25,11 +25,6 @@ The app uses the following external Javascript libraries:
 
 NB use npm install --save inquirer@<version>
 
-## Limitations
-The storage capability of the app is determined by the browser's local storage size. It should be noted that some browsers, particularly older ones, may not permit local data storage; in which case the user may wish to switch to one that does.
-
-The app shows a limited number of data points. A future upgrade would consider adding other data points and a weather map to improve the visual affect and provide more weather detail.
-
 ## Deployed Link:
 
 [README Generator](https://anthonycroft.github.io/readme-generator/)
